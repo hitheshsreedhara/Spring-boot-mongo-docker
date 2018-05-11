@@ -9,7 +9,6 @@ run:
 inspect:
 	 sudo docker network inspect spring-boot
 
-
 stop:
 	sudo docker stop $$(sudo docker ps -a -q)
 
