@@ -14,4 +14,4 @@ stop:
 	sudo docker stop $$(sudo docker ps -a -q)
 
 remove:
-	sudo docker rm $$(sudo docker ps -a -q)i
+	sudo docker rm $$(sudo docker ps -a -q)
